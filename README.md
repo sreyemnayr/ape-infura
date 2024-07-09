@@ -7,11 +7,12 @@ This plugin supports the following ecosystems:
 - Polygon
 - Arbitrum
 - Optimism
-- Linea
+- Blast
+- ~~Linea~~ (awaiting ape-linea update)
 
 ## Dependencies
 
-- [python3](https://www.python.org/downloads) version 3.8 up to 3.11.
+- [python3](https://www.python.org/downloads) version 3.9 up to 3.12.
 
 ## Installation
 
@@ -49,7 +50,7 @@ export WEB3_INFURA_PROJECT_ID=MY_API_TOKEN
 To use the Infura provider plugin in most commands, set it via the `--network` option:
 
 ```bash
-ape console --network ethereum:goerli:infura
+ape console --network ethereum:sepolia:infura
 ```
 
 To connect to Infura from a Python script, use the `networks` top-level manager:
